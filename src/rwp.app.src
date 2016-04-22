@@ -1,0 +1,16 @@
+{application, rwp,
+ [
+  {description, "Recycling Worker Pool Sample"},
+  {vsn, "1.0.0"},
+  {registered,   []},
+  {modules, []},
+  {applications, [kernel, stdlib, worker_pool]},
+  {mod, {rwp, []}},
+  {env, []},
+  {maintainers, ["elbrujohalcon"]},
+  {licenses, ["MIT"]},
+  {links, [ {"Github", "https://github.com/elbrujohalcon/rwp"}
+          , {"Source", "https://github.com/inaka/worker_pool/issues/20"}
+          ]}
+ ]
+}.
